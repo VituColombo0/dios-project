@@ -1,0 +1,13 @@
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+GENERAL: Module parameter: FORM:/dvwa/vulnerabilities/brute/
+GENERAL: Module parameter: FORM-DATA:username=&password=&Login=Login
+GENERAL: Module parameter: FORM-FAIL:Login failed
+GENERAL: Module parameter: FORM-USER:username
+GENERAL: Module parameter: FORM-PASS:password
+GENERAL: Parallel Hosts: 1 Parallel Logins: 1
+GENERAL: Total Hosts: 1 
+GENERAL: Total Users: 1
+GENERAL: Total Passwords: 7
+IMPORTANT: Couldn't load "http-form" [/usr/lib/x86_64-linux-gnu/medusa/modules/http-form.mod: cannot open shared object file: No such file or directory]. Place the module in the medusa directory, set the MEDUSA_MODULE_NAME environment variable or run the configure script again using --with-default-mod-path=[path].
+invokeModule failed - see previous errors for an explanation
